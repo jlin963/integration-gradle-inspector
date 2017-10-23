@@ -78,6 +78,8 @@ class DependencyGatherer {
                 outputFile << metaDataPieces.join('\n')
 
                 logger.info("completed ${outputFile.canonicalPath}")
+                
+                // comment
             }
         }
     }
