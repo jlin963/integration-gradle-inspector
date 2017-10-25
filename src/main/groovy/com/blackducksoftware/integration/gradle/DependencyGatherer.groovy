@@ -23,6 +23,7 @@ class DependencyGatherer {
 
         String rootProjectGroup = rootProject.group.toString()
         String rootProjectName = rootProject.name.toString()
+        // string comment
         String rootProjectVersionName = rootProject.version.toString()
 
         rootProject.allprojects.each { project ->
