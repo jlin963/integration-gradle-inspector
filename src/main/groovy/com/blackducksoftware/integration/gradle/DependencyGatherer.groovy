@@ -22,6 +22,7 @@ class DependencyGatherer {
         ExcludedIncludedFilter configurationFilter = new ExcludedIncludedFilter(excludedConfigurationNames, includedConfigurationNames)
 
         String rootProjectGroup = rootProject.group.toString()
+        //aaa
         String rootProjectName = rootProject.name.toString()
         String rootProjectVersionName = rootProject.version.toString()
 
