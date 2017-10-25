@@ -97,4 +97,5 @@ signing {
 dependencies {
     compile 'com.blackducksoftware.integration:integration-common:7.1.0'
     compile gradleApi()
+    compile 'org.apache.commons:commons-lang3:3.5'
 }
