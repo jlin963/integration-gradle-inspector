@@ -96,5 +96,6 @@ signing {
 
 dependencies {
     compile 'com.blackducksoftware.integration:integration-common:7.1.0'
+    compile group: 'org.apache.tomcat', name: 'tomcat', version: '7.0.77', ext: 'pom'
     compile gradleApi()
 }
