@@ -51,6 +51,7 @@ class DependencyGatherer {
                         });
                 sortedConfigurations.addAll(project.configurations);
                 for (Configuration configuration : sortedConfigurations) {
+                    // fawf
                     if (configurationFilter.shouldInclude(configuration.name)) {
                         renderer.startConfiguration(configuration);
                         renderer.render(configuration);
